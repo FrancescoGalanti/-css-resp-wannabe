@@ -1,3 +1,9 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -80,37 +86,61 @@ img {
    max-width: 100%;
  }
 
- #lezioni{
-   width: 419px;
-  
-   max-width: 100%;
+ #lezioni .row>.left {
+   width: 100%;
+   float: none;
+   font-size: 25px;
+   padding-bottom: 20px;
+  }
+ #lezioni .row>.right{
+  width: 100%;
+  float: none;
+  font-size: 25px;
  }
 
- #lezioni .row .left img,
- #lezioni .row .right img{
-   height: 200px;
-   width: 200px;
- }
-
- #lezioni .row>.left,
- #lezioni .row>.right {
-   width: 49%;
-   float: left;
- }
-
- #lezioni .row .left{
-  margin-right: 2%;
- }
- .container.grey {
-   background-color: #f9f9f9;
-   margin-left: 5px;
-}
- #steps img{
-  height: auto;
+ .container .grey{
+  max-width: 100%;
  }
 
  #steps .row>.left, #steps .row>.central, #steps .row>.right {
-    float: left;
-    width: 32%;
+  float: none;
+  width: 100%;
 }
+
+ #steps .row .left{
+  font-size: 25px;
+ }
+
+ #steps .row .central{
+  font-size: 25px;
+ }
+
+ #steps .row .central img{
+   padding-top: 15px;
+   padding-bottom: 20px;
+ }
+
+  #steps .row .right{
+   font-size: 25px;
+  }
+
+  #steps .row .right img{
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  #why .row .first,
+  #why .row .second,
+  #why .row .third{
+   font-size: 25px;
+  }
+
+  #why .row  hr{
+    border: 1px solid grey;
+     width: 400px;
+     margin-left: 10px;
+ }
+
+  }
+
 }
