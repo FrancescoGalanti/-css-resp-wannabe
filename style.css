@@ -137,10 +137,56 @@ img {
 
   #why .row  hr{
     border: 1px solid grey;
-     width: 400px;
-     margin-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
  }
 
   }
 
+
+
+@media screen and (min-width: 720px){
+
+  .row {
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+ }
+
+ #lezioni {
+  text-align: center;
+  font-size: 20px;
 }
+
+ #lezioni .row h1{
+  padding-bottom: 40px;
+ }
+
+ #steps{
+  font-size: 20px;
+ }
+
+ #steps .row>.left,
+ #steps .row>.central{
+ width: 50%;
+ float: left;
+ }
+
+ #steps .row>.right{
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+ }
+
+ #why{
+  font-size: 30px;
+ }
+
+ #why hr{
+  border: 1px solid grey;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+
+  }
