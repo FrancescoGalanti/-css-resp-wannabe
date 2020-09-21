@@ -71,3 +71,30 @@ img {
 .clear {
   clear: both;
 }
+
+/* media setting */
+
+@media screen and (max-width: 419px){
+ .row{
+   width: 419px;
+ }
+
+ #lezioni{
+   width: 419px;
+   margin-left: 20px;
+ }
+
+ .right img{
+   height: 200px;
+   width: 200px;
+ }
+
+ #lezioni .row>.left,
+ #lezioni .row>.right {
+   width: 49%;
+   float: left;
+ }
+ .left:first-child{
+  margin-left: 2%;
+ }
+}
